@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #160006;
+  color: #fff3f6;
+  padding: 50px;
+}
+
+h1 {
+  color: #ffd1de;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #335;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+}
+
+button:hover {
+  background: #335c67;
+}
+
+/* Table Styling */
+
+.table-group {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  background: #335;
+}
+
+thead {
+  background: #335c67;
+  color: #ffd1de;
+}
+
+th {
+  padding: 15px;
+}
+
+tbody {
+  background: #386875;
+}
+
+td {
+  padding: 10px;
+}
+
+.totalSum {
+  display: flex;
+  margin-left: auto;
+  margin-top: 10px;
+  font-size: 20px;
+}
+

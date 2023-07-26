@@ -1,0 +1,27 @@
+.currency-group {
+    background: #335;
+    width: 210px;
+    display: grid;
+    margin: 0 auto 20px;
+    grid-template-columns: 130px 80px;
+    border-radius: 15px;
+  }
+  
+  input,select {
+    background: none;
+    border: 0;
+    color: #fff;
+  }
+  
+  input {
+    padding-left: 15px;
+  }
+  
+  select {
+    padding: 15px;
+  }
+  
+  option {
+    background: #335;
+    color: #fff;
+  }
